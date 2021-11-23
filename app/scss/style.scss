@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    font-family: "Open sans", Arial, sans-serif;
+  }
+  
+  body {
+    font-size: 1.6rem;
+  }
+  
+  @import "./hero.scss";
+  @import "./sticky-wrapper.scss";      
+  @import "./about.scss";
+  @import "./portfolio.scss";
+  @import "./contact.scss";
+  @import "./news.scss";
+  @import "./footer.scss";
+  
+  
