@@ -5,21 +5,16 @@
 ### Division of work:
 * Tuấn Kiệt: 
      ###### To-do description:
-     - Hero <p align="center"><img src="![image](https://user-images.githubusercontent.com/45983207/143075500-6d66467b-056c-480a-b575-e719977bb0ba.png)
-" width="580px"/></p>
-     - Sticky Wrapper <p align="center"><img src="![image](https://user-images.githubusercontent.com/45983207/143075551-175eb3e8-c4eb-40bd-942b-8ba6e5e2d4d4.png)
-" width="580px"/></p>
-     - About <p align="center"><img src="![image](https://user-images.githubusercontent.com/45983207/143075935-4e6d87c1-02ce-406e-911f-2cce2de95461.png)" width="580px"/></p>
-     - Portfolio <p align="center"><img src="![image](https://user-images.githubusercontent.com/45983207/143075970-4d9962a7-11cc-4621-bc72-698be5ca8abb.png)" width="580px"/></p>
+     - Hero <p align="center"><img src="https://user-images.githubusercontent.com/45983207/143075500-6d66467b-056c-480a-b575-e719977bb0ba.png" width="580px"/></p>
+     - Sticky Wrapper <p align="center"><img src="https://user-images.githubusercontent.com/45983207/143075551-175eb3e8-c4eb-40bd-942b-8ba6e5e2d4d4.png" width="580px"/></p>
+     - About <p align="center"><img src="https://user-images.githubusercontent.com/45983207/143075935-4e6d87c1-02ce-406e-911f-2cce2de95461.png" width="580px"/></p>
+     - Portfolio <p align="center"><img src="https://user-images.githubusercontent.com/45983207/143075970-4d9962a7-11cc-4621-bc72-698be5ca8abb.png" width="580px"/></p>
 
 * Khánh Linh: 
      ###### To-do description:
-     - News <p align="center"><img src="![image](https://user-images.githubusercontent.com/45983207/143075825-ab4a9718-d508-4554-bd7f-ea4fa7f25369.png)
-" width="580px"/></p>
-     - Contact <p align="center"><img src="![image](https://user-images.githubusercontent.com/45983207/143075858-76f5d29a-f402-4595-9d48-eabc79304655.png)
-" width="580px"/></p>
-     - Footer <p align="center"><img src="![image](https://user-images.githubusercontent.com/45983207/143075879-6270575b-3753-4775-b7d1-0f2727dd4e4b.png)
-" width="580px"/></p>
+     - News <p align="center"><img src="https://user-images.githubusercontent.com/45983207/143075825-ab4a9718-d508-4554-bd7f-ea4fa7f25369.png" width="580px"/></p>
+     - Contact <p align="center"><img src="https://user-images.githubusercontent.com/45983207/143075858-76f5d29a-f402-4595-9d48-eabc79304655.png" width="580px"/></p>
+     - Footer <p align="center"><img src="https://user-images.githubusercontent.com/45983207/143075879-6270575b-3753-4775-b7d1-0f2727dd4e4b.png" width="580px"/></p>
      
 ### Participants:
 - Mentor: <a href="https://www.facebook.com/nomadic.lodestar" target="_blank">Lê Điệp</a>
