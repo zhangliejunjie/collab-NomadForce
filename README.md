@@ -13,6 +13,7 @@
 * Khánh Linh: 
      ###### To-do description:
      - News <p align="center"><img src="https://user-images.githubusercontent.com/45983207/143075825-ab4a9718-d508-4554-bd7f-ea4fa7f25369.png" width="580px"/></p>
+     - News Details <p align="center"><img src="https://i.imgur.com/yB4DkJu.png" width="580px"/></p>
      - Contact <p align="center"><img src="https://user-images.githubusercontent.com/45983207/143075858-76f5d29a-f402-4595-9d48-eabc79304655.png" width="580px"/></p>
      - Footer <p align="center"><img src="https://user-images.githubusercontent.com/45983207/143075879-6270575b-3753-4775-b7d1-0f2727dd4e4b.png" width="580px"/></p>
      
