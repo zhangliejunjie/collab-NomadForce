@@ -6,7 +6,8 @@
   
   html {
     font-size: 62.5%;
-    font-family: "Open sans", Arial, sans-serif;
+    // font-family: "Open sans", Arial, sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
   }
   
   body {
@@ -19,6 +20,7 @@
   @import "./portfolio.scss";
   @import "./contact.scss";
   @import "./news.scss";
+  @import "./new-detail.scss";
   @import "./footer.scss";
   
   

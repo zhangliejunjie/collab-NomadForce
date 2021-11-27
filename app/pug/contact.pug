@@ -1,0 +1,39 @@
+.contact-us__container
+  .contact-us
+    .contact-us__form
+      h2(data-aos='fade-up') Dont&apos; be shy, write to us
+      form(action='#' novalidate='' data-aos='fade-up')
+        .name-email
+          .contact-us__name
+            label(for='name')
+              | Name 
+              span.star *
+            input#name(type='text' name='' placeholder='Full name')
+          .contact-us__email
+            label(for='email')
+              | Email 
+              span.star *
+            input#email(type='text' name='' placeholder='Email adress')
+        .contact-us__tellus
+          label(for='tellus') How can we help?
+          textarea#tellus(name='' cols='30' rows='10' placeholder='Tell us about the project')
+        .contact-us__services
+          label.form-check-title(for='services')
+            | Services 
+            span.star *
+          .contact-us__check
+            .form-check
+              input#checkbox1.form-check-input(type='checkbox' name='checkbox1')
+              span.check
+              label.form-check-label(for='checkbox1')
+                | Branding
+            .form-check
+              input#checkbox2.form-check-input(type='checkbox' name='checkbox2')
+              span.check
+              label.form-check-label(for='checkbox2') Digital Experiences
+            .form-check
+              input#checkbox3.form-check-input(type='checkbox' name='checkbox3')
+              span.check
+              label.form-check-label(for='checkbox3') Web Development
+        .contact-us__btn
+          button.form-btn(type='submit') Send Message

@@ -5,13 +5,21 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title collab-NomadForce
+        link(rel='preconnect' href='https://fonts.googleapis.com')
+        link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+        link(href='https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap' rel='stylesheet')
+        link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.15.4/css/all.css' integrity='sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm' crossorigin='anonymous')
+        link(rel='stylesheet' href='https://unpkg.com/aos@next/dist/aos.css')
         link(rel="stylesheet", href="./css/style.css")
     body
         include hero.pug
         include sticky-wrapper.pug       
         include about.pug 
         include portfolio.pug
-        include contact.pug 
         include news.pug
+        include contact.pug 
         include footer.pug
+        script(src='./js/aos.js')
+        script(src='./js/toggle.js')
+        script(src='./js/form-valid.js')
         

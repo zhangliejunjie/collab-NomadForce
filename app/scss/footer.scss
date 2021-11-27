@@ -1,0 +1,131 @@
+.map{
+    height: 50vh;
+    overflow:hidden;
+    position:relative;
+}
+
+.map iframe{
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    filter: grayscale(100%);
+}
+/* FOOTER */
+.footer__container{
+    background-color: #000;
+}
+.footer{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-top: 72px ;
+    padding-bottom: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #ffffff;
+}
+.footer__title{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.footer__title i{
+    margin-right: 20px;
+}
+.footer__email{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.footer__email a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.65);
+    display: inline-block;
+    position: relative;
+    overflow: hidden; 
+    z-index: 1;
+    transition: 0.5s;
+}
+.footer__email a:hover{
+    color: #ffffff;
+}
+.footer__email a:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.footer__email a:hover:after{
+    transform: scaleX(1);
+    
+    transform-origin: bottom left;
+}
+.footer__detail{
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 14px;
+}
+.footer__detail a{
+    color: rgba(255, 255, 255, 0.45);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.footer__detail a:hover{
+    color: #ffc107;
+
+}
+.detail__social{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer__social{
+   transform: translateX(-50%);
+}
+.social__list{
+    display: flex;
+    list-style-type: none;
+}
+.social__item{
+    margin-right: 20px;
+}
+
+.social__item a{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.45);
+    transition: 0.5s;
+}
+.social__item a:hover{
+    color: #ffffff
+}
+
+
+// RESPONSIVE
+@media (max-width: 1400px) {
+    .footer{
+        max-width: 1140px;
+    }
+}
+@media (max-width: 1200px) {
+    .footer{
+        max-width: 960px;
+    }
+}
+@media (max-width: 991px) {
+    .footer{
+        max-width: 720px;
+    }
+    
+}
+@media (max-width: 768px){
+    .footer{
+        max-width: 540px;
+    }
+}

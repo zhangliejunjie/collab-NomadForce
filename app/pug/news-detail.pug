@@ -1,0 +1,126 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap' rel='stylesheet')
+    link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.15.4/css/all.css' integrity='sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm' crossorigin='anonymous')
+    link(rel='stylesheet' href='https://unpkg.com/aos@next/dist/aos.css')
+    link(rel='stylesheet' href='./css/style.css')
+    title Document
+  body 
+    .detail-hero
+      .detail-hero__text
+        h1.detail-hero__title(data-aos='zoom-in') What happened to new viral video?
+        .detail-hero__content
+          a.detail-hero__link(href='#')
+            i.fas.fa-comment-alt
+            | 128
+          a.detail-hero__link(href='#')
+            i.fas.fa-bookmark
+          span 21 hours ago
+      .detail-hero__bg
+        img.detail-hero__bg__img(src='./images/dentist.jpg' alt='')
+      .detail-overlay
+    .coco
+      .detail-nav__container
+        .detail-nav
+          .detail-logo-toggle
+            .detail-nav-logo
+              a(href='#') Nomad Force
+            .detail-nav-toggle
+              .detail-nav-toggle__icon
+          .detail-nav-menu
+            ul.detail-nav-menu__list
+              li.detail-nav-menu__item
+                a.detail-nav-menu__link(href='#') Home
+              li.detail-nav-menu__item
+                a.detail-nav-menu__link(href='#') Our Studio
+              li.detail-nav-menu__item
+                a.detail-nav-menu__link(href='#') Portfolio
+              li.detail-nav-menu__item
+                a.detail-nav-menu__link(href='#') News &amp; Events
+              li.detail-nav-menu__item
+                a.detail-nav-menu__link(href='#') Contact Us
+    .news-detail__container
+      .newscontainer
+        .news-detail
+          h2(data-aos='fade-up') What happend to new viral video?
+          p.news-detail__content(data-aos='fade-up')
+            | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            | tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+            | commodo viverra maecenas accumsan.
+          p.news-detail__content(data-aos='fade-up')
+            | Nullam id lorem commodo, pharetra sapien ut, accumsan ligula. Sed sit
+            | amet sem pulvinar, imperdiet eros quis, vestibulum felis. Pellentesque posuere scelerisque sodales.
+          .content-img(data-aos='fade-up')
+            .news-detail__img
+              img(src='./images/bathroom.jpeg' alt='')
+              span A caption for above image
+            p.news-detail__content(data-aos='fade-up')
+              | Morbi scelerisque urna in orci elementum, nec mollis ligula luctus.
+              | Proin ullamcorper pulvinar commodo. Quisque tortor nunc, ultricies efficitur ex sit amet, tempus
+              | rutrum libero. In nec faucibus tellus.
+            p.news-detail__content(data-aos='fade-up')
+              | Donec justo orci, pretium ultricies ante eget, bibendum semper enim.
+              | Nunc efficitur purus suscipit leo placerat, a ultricies purus gravida. Sed sollicitudin ornare
+              | porta. Mauris convallis sit amet purus sed rutrum.
+            p.news-detail__content(data-aos='fade-up')
+              | This Bootstrap 5 layout is provided by TemplateMo website and it is
+              | free to use for any of your website. You are allowed to edit it in any way you like. However,
+              | please do not redistribute this template ZIP file for a template download purpose on any other
+              | website such as Free CSS collection websites.
+          .news-detail__social(data-aos='zoom-in')
+            span Share this article: 
+            ul.news-detail__list
+              li.news-detail__item
+                a.news-detail__link(href='#')
+                  i.fab.fa-facebook
+              li.news-detail__item
+                a.news-detail__link(href='#')
+                  i.fab.fa-twitter
+              li.news-detail__item
+                a.news-detail__link(href='#')
+                  i.far.fa-envelope
+    .related-news__container
+      .related-news
+        span(data-aos='zoom-in') Next article
+        h3
+          a.news-title-link(href='#' data-aos='fade-up') Job Opprtunities - Digital Marketing
+    .footer__container
+      .footer
+        .footer__title
+          i.fas.fa-map-marker-alt
+          | State of Rio de Janeiro, Brazil
+        .footer__email
+          a(href='#') info@company.com
+        .detail__social
+          p.footer__detail
+            | Copyright &copy; Nomad Force 2021 
+            br
+            br
+            | Design: 
+            a(href='#') TemplateMo
+          .footer__social
+            ul.social__list
+              li.social__item
+                a(href='#')
+                  i.fab.fa-facebook
+              li.social__item
+                a(href='#')
+                  i.fab.fa-twitter
+              li.social__item
+                a(href='')
+                  i.fab.fa-whatsapp
+              li.social__item
+                a(href='')
+                  i.fab.fa-instagram
+              li.social__item
+                a(href='')
+                  i.fab.fa-youtube
+    script(src='./js/aos.js')
+    script(src='./js/toggle.js')
+    script(src='./js/form-valid.js')
