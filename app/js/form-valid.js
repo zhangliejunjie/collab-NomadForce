@@ -68,16 +68,7 @@ document.querySelector('form').addEventListener('submit', event =>{
     }
 })
 
-// const nav = document.querySelector('.nav__container')
-// const sticky = header.offsetTop;
 
-// window.addEventListener("onscroll", () =>{
-//     if (window.pageYOffset > sticky) {
-//         nav.classList.add("sticky");
-//       } else {
-//         nav.classList.remove("sticky");
-//       }
-// })
 
 
 
